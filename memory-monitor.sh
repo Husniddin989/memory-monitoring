@@ -259,9 +259,9 @@ $SYS_INFO
     echo "$MESSAGE" >> "$LOG_FILE"
     
     # Telegram API orqali xabar yuborish
-    local RESPONSE=$(curl -sG "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
-        --data-urlencode "chat_id=$CHAT_ID" \
-        --data-urlencode "parse_mode=Markdown" \
+    local RESPONSE=$(curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
+        -d chat_id="$CHAT_ID" \
+        -d parse_mode="Markdown" \
         --data-urlencode "text=$MESSAGE")
     
     # API javobini tekshirish

@@ -1,10 +1,10 @@
 Package: memory-monitor
-Version: 1.0.0
+Version: 1.0.1
 Section: admin
 Priority: optional
 Architecture: all
-Depends: bash (>= 4.0), curl, procps
-Maintainer: System Administrator <admin@example.com>
+Depends: bash (>= 4.0), curl, procps, bc
+Maintainer: System Administrator khusniddin989@gmail.com
 Description: System Resource Monitoring Tool
  A comprehensive system monitoring tool that tracks RAM, CPU, 
  and disk usage and sends alerts via Telegram when thresholds 

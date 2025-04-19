@@ -34,7 +34,7 @@ System Monitor-ni o'rnatish uchun quyidagi qadamlarni bajaring:
 Ushbu repozitoriyani yuklab oling yoki fayllarni serveringizga ko'chiring:
 
 ```bash
-git clone https://github.com/Husniddin989/memory-monitoring.git
+git clone https://github.com/username/system-monitor.git
 cd system-monitor
 ```
 
