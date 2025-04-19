@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Memory Monitor o'rnatish qo'llanmasi
-# Muallif: Manus AI
+# Muallif: Husniddin
 # Versiya: 1.0.0
 
 echo "====================================================="

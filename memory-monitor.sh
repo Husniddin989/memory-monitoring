@@ -2,7 +2,7 @@
 
 # =============================================================================
 # SYSTEM MONITOR - Tizim resurslarini kuzatish va Telegram orqali xabar yuborish
-# Muallif: Manus AI
+# Muallif: Husniddin
 # Versiya: 1.0
 # =============================================================================
 
